@@ -147,7 +147,6 @@ Durante el desarrollo del proyecto se aplicaron:
 
 # Esquema del flujo del proyecto
 
-```text
                 📄 Dataset inicial
               (30.000 usuarios)
                       │
