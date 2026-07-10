@@ -145,6 +145,47 @@ Durante el desarrollo del proyecto se aplicaron:
 
 ---
 
+# Esquema del flujo del proyecto
+
+```text
+                📄 Dataset inicial
+              (30.000 usuarios)
+                      │
+                      ▼
+          🧹 Limpieza y EDA
+                      │
+                      ▼
+          📊 Dataset limpio
+                      │
+                      │
+                      ├────────────────────────────┐
+                      │                            │
+                      ▼                            ▼
+              🌐 API Yelp                Restaurantes Chicago
+                      │
+                      ▼
+           📥 Extracción de datos
+                      │
+                      ▼
+          🧹 Limpieza y transformación
+                      │
+                      ▼
+            📊 Dataset Yelp limpio
+                      │
+                      ▼
+        🔗 Integración de ambas fuentes
+                      │
+                      ▼
+      📈 Análisis y visualización de datos
+                      │
+                      ▼
+        💡 Insights de negocio
+                      │
+                      ▼
+   🎯 Recomendaciones de segmentación
+
+---
+
 # 📄 Documentación
 
 El repositorio incluye:
