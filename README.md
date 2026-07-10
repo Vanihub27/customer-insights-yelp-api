@@ -185,6 +185,8 @@ Durante el desarrollo del proyecto se aplicaron:
 
 ---
 
+
+
 # 📄 Documentación
 
 El repositorio incluye:
